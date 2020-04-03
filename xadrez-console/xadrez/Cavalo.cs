@@ -24,7 +24,7 @@ namespace xadrez
 
             Posicao pos = new Posicao(0, 0);
 
-
+            /* comment added to use GitKraken */
             pos.definirValores(posicao.linha - 1, posicao.coluna - 2);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
